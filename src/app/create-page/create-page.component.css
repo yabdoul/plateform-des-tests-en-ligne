@@ -1,0 +1,177 @@
+.main-create
+{ 
+margin-left: 9%;
+margin-top: 5%;
+
+
+}
+
+.head {
+    display: flex;
+   
+}
+.control-buttons
+{
+     margin-left: 19%;
+     white-space: nowrap;
+}
+.control-buttons button  {
+     margin-left: 4% ;
+}
+.page-body {
+     display: grid;
+     grid-template-columns: 60% 30%;
+grid-gap: 9%;
+
+}
+.item { 
+   background-color: #F8FAFB ; 
+   height: 100vh;
+   border-radius: 14px;
+}
+.body-section { 
+    width: 80%;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+    border-radius: 8px;
+  
+    display: block;
+    padding-left: 3%;
+    padding-top: 3%;
+color:rgba(21, 20, 20, 0.44);;
+
+}
+.title-section {
+    height: 15%;
+}
+.btn-outline-info {
+     background-color: #4071F0;
+     color: white;
+     border: none;
+}
+.btn-outline-info:hover { 
+    background-color: transparent;
+    color: #4071F0;
+    border: solid 1px #4071F0;
+}
+.question-section { 
+    min-height: 30%;
+    height: auto;
+}
+.body-section input[type=text] { 
+    margin-top: 2%;
+    width: 90%;
+    height: 18%;
+border-radius: 4px;
+border: none;
+padding: 2%;
+
+
+background-color: rgba(103, 104, 105, 0.107);
+}
+.input-choix { 
+    width: 40%;
+
+}
+.body-section input::placeholder{
+color: #b0b0b0;
+
+}
+.top { 
+    display: flex;
+   
+
+}
+.top-buttons{ 
+    margin-left: 48%;
+    white-space: nowrap;
+
+}
+.top-buttons button { 
+    background-color: #F8FAFB;
+border: none;
+border-radius: 3px;
+
+
+}
+.top-buttons button:first-of-type {
+     color: rgba(0, 0, 0, 0.37); ;
+}
+.top-buttons button:last-of-type { 
+    background-color: #4071F0;
+    color: white;
+    margin-left: 4%;
+
+}
+.top img {
+    width: 20px;
+    height: 20px;
+
+}
+.add-section { 
+    height: 18%;
+    padding-left: 35%;
+    padding-right: 35%;  
+     white-space: nowrap;
+     cursor: pointer;
+}
+.add-section img {
+    width: 60px;
+    width: 60px;
+ 
+
+}
+.choix  {
+     display: flex;
+     white-space:nowrap;
+}
+.choix input { 
+    width: 30%;
+
+
+}
+.choix-button { 
+    margin-left: 4%;
+    margin-top: 3% ;
+
+}
+.choix-button button, .ajouter-choix button {
+    background-color: transparent;
+    border:none ; 
+    color: white;
+    font-family: 'Inter',sans-serif;
+
+   border-radius: 4px;
+
+}
+.choix-button button:first-of-type { 
+    background-color: #1CAF4E;
+
+}
+.choix-button button:last-of-type { 
+    background-color: #E64A4A ;
+    margin-left: 5%;
+
+}
+.Right-answer{ 
+    margin-top:3% ;
+    padding: none;
+
+}
+.ajouter-choix button { 
+    background-color: #1CAF4E;
+    width: 45%;
+    margin-top: 3% ;
+
+
+}
+.radio {
+    padding: 1%;
+    margin-top: 2%;
+}
+.radio label{ 
+    margin-left: 1%;
+    
+}

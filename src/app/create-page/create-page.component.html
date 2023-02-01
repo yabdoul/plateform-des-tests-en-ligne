@@ -1,0 +1,52 @@
+<div class="main-create">
+<div class="head">
+    <h3>Nouveau Test-Mathematique </h3>
+    <div class="control-buttons">
+        <button type="button" class="btn btn-outline-danger">X</button>
+
+<button type="button" class="btn btn-outline-info">Done</button>
+
+        </div>
+</div>
+<div class="page-body ">
+    <div class="left item">
+<div class="title title-section body-section">
+<span>Title</span> <br>
+<input type="text" placeholder="Entrer le sujet de votre Exama">
+
+</div>
+<app-done-quizz *ngFor="let item of loadquizz"></app-done-quizz>
+<div class="body-section  question-section ">
+   
+    <div class="top">
+    <span> <img src="assets/check.png"> Qcm question ! </span> <br>
+    <div class="top-buttons">
+<button >Remove</button>
+<button (click)="donequizz()" onclick="console.log('click') ; return this.parentNode.parentNode.parentNode.remove()">Done</button>
+
+    </div>
+   </div>
+    <input type="text" placeholder="le sujet de votre question qcm">
+    <div class="radio">
+    
+    </div>
+<div class="ajouter-choix" >
+        
+         <app-choix   ngif="show" *ngFor="let item of loadComponent"  ngClass="{{item}}"></app-choix>
+    <button (click)="addfield()" >Ajouter Un choix </button>
+    </div>
+    
+    </div>
+<div class="body-section add-section">
+<img src="assets/plus.png" alt="">
+<br>
+<span>Add an Section </span>
+</div>
+    </div>
+<div class="right item">
+</div>
+</div>
+<script>
+    console.log('helo');
+</script>
+</div>

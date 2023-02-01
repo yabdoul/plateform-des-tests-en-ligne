@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+h2 { 
+    margin-left: 5% ;
+    font-family: 'Inter',sans-serif;
+    font-size: x-large;
+margin-top: 3% ;
+}
+.main-grid { 
+    display: grid;
+    grid-template-columns: repeat(3,23%);
+    grid-gap: 3% ;
+margin-left: 5% ;
+margin-top: 3%;
+}
+.iten { 
+ background-color: red ;
+ height: 200px ;
+ border-radius: 14px ;
+ padding-top: 4%;
+}
+.iten span 
+{ 
+    font-family:'inter',sans-serif;
+    color: white;
+margin-left: 5%;
+
+
+} 
+.iten span:first-of-type { 
+     font-size: 30px;
+}
+.iten span:nth-of-type(2) 
+{ 
+    font-size: 15px;
+    font-weight:lighter ;  
+}
+.buttons { 
+    margin-top: 22% ;
+    margin-left: 3%;
+
+}
+.buttons button 
+{ 
+    background-color: transparent;
+    border: solid white 0.5px ;
+color: white;
+font-family: 'Inter',sans-serif;
+width: 40%;
+
+}
+.buttons button:hover { 
+    background-color: white;
+    color: black;
+}
+.buttons button:nth-of-type(2)
+{
+    margin-left: 15%;
+}

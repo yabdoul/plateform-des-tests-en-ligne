@@ -1,0 +1,55 @@
+.choix  {
+    display: flex;
+    white-space:nowrap;
+}
+.choix input { 
+   width: 30%;
+
+
+}
+.choix-button { 
+   margin-left: 4%;
+   margin-top: 3% ;
+
+}
+.choix-button button, .ajouter-choix button {
+   background-color: transparent;
+   border:none ; 
+   color: white;
+   font-family: 'Inter',sans-serif;
+
+  border-radius: 4px;
+
+}
+.choix-button button:first-of-type { 
+   background-color: #1CAF4E;
+
+}
+.choix-button button:last-of-type { 
+   background-color: #E64A4A ;
+   margin-left: 5%;
+
+}
+.Right-answer{ 
+   margin-top:3% ;
+   padding: none;
+
+}
+.ajouter-choix button { 
+   background-color: #1CAF4E;
+   width: 45%;
+   margin-top: 3% ;
+
+
+}
+input[type=text] { 
+    margin-top: 2%;
+    width: 90%;
+    height: 18%;
+border-radius: 4px;
+border: none;
+padding: 2%;
+
+
+background-color: rgba(103, 104, 105, 0.107);
+}

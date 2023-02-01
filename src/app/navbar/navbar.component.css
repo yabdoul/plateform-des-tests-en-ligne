@@ -1,0 +1,29 @@
+nav { 
+    background-color: #303030;
+    color: white ;
+    padding: none;
+    white-space: nowrap;
+}
+.navbar-brand 
+{ 
+    margin-left: 9% ;
+}
+
+.navbar-nav { 
+    margin-left: 26%;
+    margin-top: 1%;
+}
+.user-infos 
+{ 
+    margin-left: 120% ;
+    display: flex;
+}
+.user-infos img { 
+    width: 41px;
+    height: 41px;
+
+}
+.data span 
+{
+    width: 100;
+}
